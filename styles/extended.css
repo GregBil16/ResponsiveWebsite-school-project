@@ -1,0 +1,78 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.font-weight-semi-bold {
+	font-weight: 600;
+}
+
+section {
+	padding: 100px 0;
+}
+
+.e-title {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+
+.card-number {
+	
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.card-title {
+
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+.s-works .card-title{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.s-works .card-detail {
+	display: block;
+	position: relative;
+}
+
+.s-works .card-img-top {
+	height: 250px;
+	object-fit: cover;
+}
+.s-works .card-detail:hover .btn{
+	opacity: 1;
+}
+
+.s-works .card-detail .btn{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: all .5s ease;
+}
+
+.s-blog .card-img-top {
+	height: 250px;
+	object-fit: cover;
+}
+
+.s-blog .card-img {
+	min-height: 100%;
+	object-fit: cover;
+	max-height: 450px;
+
+}
+
+.s-blog .card-body-middle{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	padding: 20px;
+
+}
